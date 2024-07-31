@@ -89,3 +89,41 @@ return 0;
 }
 
 
+#Multiplication of two value
+
+#include <stdio.h>
+
+int main() {
+    
+    int a,b,c;
+    printf("ENter two number:-");
+    scanf("%d %d",&a, &b);
+    
+    c=a*b;
+    printf("Product of number is :-%d",c);
+
+    return 0;
+}
+#Split the values
+
+#include <stdio.h>
+
+int main() {
+    
+    int a,b,c,d,x,s;
+    printf("ENter 4 digit number:-");
+    scanf("%d",&x);
+    
+    a=x/1000;
+    b=(x/100)%10;
+    c=(x/10)%10;
+    d=x%10;
+    
+    printf("\n A:%d \n B:%d \n c:%d \n d=%d \n",a,b,c,d);
+    s=a+b+c+d;
+    printf("\n Sum of all number is:-%d",s);
+
+
+    return 0;
+}
+
