@@ -50,3 +50,31 @@ int main() {
      }
     return 0;
 }
+
+
+
+-------------------------------###############------------------------------------------
+     // Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+     int num;
+     
+     printf("\n Enter any number to check even or odd:-");
+     scanf("%d",&num);
+     switch(num%2)
+     {
+         case 0:
+         printf("\n Number is even:");
+         break;
+         case 1:
+         printf("\n Enter number is odd");
+         break;
+         default:
+         printf("\n Invalid Input!!");
+         
+         
+     }
+    return 0;
+}
+-----------------------------######################----------------------------
