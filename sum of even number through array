@@ -1,0 +1,28 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#define size 5
+
+int main() {
+    int a[size],i,sum=0,count=0;
+    printf("Enter %d value",size);
+    for(i=0;i<size;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    printf("\n Even values is ");
+
+    for(i=0;i<size;i++)
+    {
+        if(a[i]%2==0){
+            printf("%d",a[i]);
+            sum=sum+a[i];
+            
+            
+            count+=1;
+        }
+    }
+    printf("\n Sum of all the values:%d",sum);
+    printf("\n count of the values:%d",count);
+
+    return 0;
+}
